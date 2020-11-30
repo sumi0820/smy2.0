@@ -1,0 +1,17 @@
+@import "./breakpoints.scss";
+
+
+.navbar__container{
+    border-bottom: 0 !important;
+    margin-top: 50px !important;
+    padding: 0 30px !important;
+}
+
+.navbar__menu__mobile {
+    display: none;
+
+    @include media("<=phone") {
+
+    }
+
+}

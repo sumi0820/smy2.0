@@ -2,6 +2,7 @@ import { Route, Switch } from "react-router-dom";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
+import "./App.scss";
 
 function App() {
   return (
